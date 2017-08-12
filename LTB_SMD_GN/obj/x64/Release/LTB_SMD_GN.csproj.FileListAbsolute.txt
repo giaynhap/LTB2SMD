@@ -1,0 +1,6 @@
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\bin\x64\Release\LTB_SMD_GN.exe
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\obj\x64\Release\LTB_SMD_GN.csprojResolveAssemblyReference.cache
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\obj\x64\Release\LTB_SMD_GN.Form1.resources
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\obj\x64\Release\LTB_SMD_GN.Properties.Resources.resources
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\obj\x64\Release\LTB_SMD_GN.csproj.GenerateResource.Cache
+F:\visual studio 2010\Projects\LTB_SMD_GN\LTB_SMD_GN\obj\x64\Release\LTB_SMD_GN.exe

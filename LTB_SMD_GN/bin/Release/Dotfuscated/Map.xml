@@ -1,0 +1,1141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2017-07-04T23:44:36</timestamp>
+        <product version="5.22.0.3788" user="Unregistered " serial="000-00-000-391">Dotfuscator and Analytics Community Edition</product>
+    </header>
+    <mapping>
+        <module>
+            <name>LTB_SMD_GN.exe</name>
+            <type>
+                <name>LTB_SMD_GN.AnimData</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>float32[]</signature>
+                        <name>Dim</name>
+                    </field>
+                    <field>
+                        <signature>LTB_SMD_GN.framedata[]</signature>
+                        <name>frame</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>interp_time</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;int32&gt;</signature>
+                        <name>listkeyframe</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;string&gt;</signature>
+                        <name>listsound</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>name</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nkeyframe</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.BoneData</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>string</signature>
+                        <name>bone_data_out</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>isbone</name>
+                    </field>
+                    <field>
+                        <signature>float64[0...,0...]</signature>
+                        <name>matdata</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nSubbone</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>name</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>num2</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>par</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.DtxRead</name>
+                <newname>a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string)</signature>
+                        <name>Decompress_file</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>LoadFile</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>Save_to</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.IO.BinaryReader</signature>
+                        <name>fFile_load</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>iBpp</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>iHeight</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>iSize</name>
+                        <newname>e</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>iWidth</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>imageData</name>
+                        <newname>g</newname>
+                    </field>
+                    <field>
+                        <signature>ManagedSquish.SquishFlags</signature>
+                        <name>pInternalFormat</name>
+                        <newname>f</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.Form1</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.Reflection.Assembly(object, System.ResolveEventArgs)</signature>
+                        <name>&lt;.ctor&gt;b__35_0</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float64[0...,0...], float64[0...,0...])</signature>
+                        <name>CALC_ConcatTransforms</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(LTB_SMD_GN.AnimData, int32)</signature>
+                        <name>Calc_Bone_Transform</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Calc_weightsets</name>
+                    </method>
+                    <method>
+                        <signature>void(float32, float32, float32)</signature>
+                        <name>Change_a_anim</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(float32, float32, float32)</signature>
+                        <name>Change_a_mesh</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Clac_Par_Bone</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string)</signature>
+                        <name>Decompress_file</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(bool)</signature>
+                        <name>Dispose</name>
+                    </method>
+                    <method>
+                        <signature>float64(float32[], float64[0...,0...], int32)</signature>
+                        <name>DotProduct</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>Form1_Load</name>
+                        <newname>n</newname>
+                    </method>
+                    <method>
+                        <signature>int32(int32[], float32[])</signature>
+                        <name>GetBoneWeightD</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[0...,0...])</signature>
+                        <name>GetPosition</name>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[0...,0...])</signature>
+                        <name>GetRotation</name>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[0...,0...])</signature>
+                        <name>GetScale</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>InitializeComponent</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float64[0...,0...])</signature>
+                        <name>InverseMat</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float64[0...,0...])</signature>
+                        <name>InverseMat2</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float64[0...,0...])</signature>
+                        <name>MulMatVec</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>float64(float64)</signature>
+                        <name>NormalAngle</name>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float32[])</signature>
+                        <name>QuaternionMatrix</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float64[])</signature>
+                        <name>QuaternionMatrix</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float32[], float32)</signature>
+                        <name>QuaternionSlerp</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[])</signature>
+                        <name>QuaternionToYawPitchRoll</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Scale_</name>
+                        <newname>d</newname>
+                    </method>
+                    <method>
+                        <signature>float32(int16)</signature>
+                        <name>UnpackFromInt16</name>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float64[0...,0...])</signature>
+                        <name>VectorIRotate</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float64[0...,0...])</signature>
+                        <name>VectorRotate</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float32[])</signature>
+                        <name>VectorSubtract</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float64[0...,0...])</signature>
+                        <name>VectorTransform</name>
+                        <newname>d</newname>
+                    </method>
+                    <method>
+                        <signature>void(string, System.Collections.Generic.List`1&lt;float32[]&gt;, int32)</signature>
+                        <name>Write_MODEL</name>
+                    </method>
+                    <method>
+                        <signature>void(string, string)</signature>
+                        <name>Write_QC</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, string)</signature>
+                        <name>Write_SMD_ANIM</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>Write_SMD_MODEL</name>
+                    </method>
+                    <method>
+                        <signature>float32[](float32[], float32[])</signature>
+                        <name>_VectorAdd</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>__doing_convert</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>auto_calc_all_Frame</name>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>button1_Click</name>
+                        <newname>l</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>button2_Click</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>button3_Click</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>calc_databone</name>
+                        <newname>f</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>checkBox1_CheckedChanged</name>
+                        <newname>i</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>checkBox2_CheckedChanged</name>
+                        <newname>k</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>checkBox3_CheckedChanged</name>
+                        <newname>h</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>checkBox4_CheckedChanged</name>
+                        <newname>g</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>checkBox5_CheckedChanged</name>
+                        <newname>f</newname>
+                    </method>
+                    <method>
+                        <signature>float64(float64[0...,0...])</signature>
+                        <name>getMatrixResult</name>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](int32)</signature>
+                        <name>getReplaceMatrix</name>
+                    </method>
+                    <method>
+                        <signature>LTB_SMD_GN.AnimData(int32, float32, float32, float32)</signature>
+                        <name>get_animm</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>LTB_SMD_GN.MeshData(int32, float32, float32, float32)</signature>
+                        <name>get_new_MeshData</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, float32, float32, float32)</signature>
+                        <name>get_new_bone_out_data</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>label3_Click</name>
+                        <newname>e</newname>
+                    </method>
+                    <method>
+                        <signature>float64(float64)</signature>
+                        <name>normal_rotate</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.BinaryReader)</signature>
+                        <name>parse_animation</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.BinaryReader, unsigned int32)</signature>
+                        <name>parse_mesh</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.BinaryReader)</signature>
+                        <name>parse_skeleton</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.BinaryReader, unsigned int32, int32, string)</signature>
+                        <name>parse_submesh</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.BinaryReader, unsigned int32, unsigned int32, int32)</signature>
+                        <name>parse_vertices</name>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[])</signature>
+                        <name>quaternionToRotation</name>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[])</signature>
+                        <name>quaternionToRotation2</name>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[])</signature>
+                        <name>quaternionToRotation3</name>
+                    </method>
+                    <method>
+                        <signature>string(System.IO.BinaryReader)</signature>
+                        <name>read_string</name>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>richTextBox1_TextChanged</name>
+                        <newname>m</newname>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[0...,0...])</signature>
+                        <name>rotationMatrixToEulerAngles</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(int32, float32)</signature>
+                        <name>scale_</name>
+                    </method>
+                    <method>
+                        <signature>float64[](float64[0...,0...])</signature>
+                        <name>solveEquations</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>test_transform</name>
+                        <newname>e</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>textBox1_TextChanged</name>
+                        <newname>j</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>toolStripButton1_Click</name>
+                        <newname>d</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>toolStripButton2_Click</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>toolStripButton3_Click</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>toolStripButton4_Click</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>float64[0...,0...](float64[0...,0...], int32, System.Collections.Generic.List`1&lt;float64[0...,0...]&gt;)</signature>
+                        <name>worldToLocalMatrix</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>write_dll</name>
+                        <newname>g</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>write_list_textures</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>write_mdllib</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.IO.StreamWriter)</signature>
+                        <name>write_model_header</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.IO.BinaryReader</signature>
+                        <name>LTBFile</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>LTB_MESHTYPE_EXTRAFLOAT</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>LTB_MESHTYPE_NOTSKINNED</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>LTB_MESHTYPE_SKINNED</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>LTB_MESHTYPE_SKINNEDALT</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>LTB_MESHTYPE_TWOEXTRAFLOAT</name>
+                    </field>
+                    <field>
+                        <signature>LTB_SMD_GN.AnimData[]</signature>
+                        <name>LtbfAnim</name>
+                    </field>
+                    <field>
+                        <signature>LTB_SMD_GN.BoneData[]</signature>
+                        <name>LtbfBone</name>
+                    </field>
+                    <field>
+                        <signature>LTB_SMD_GN.MeshData[]</signature>
+                        <name>LtbfMesh</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float64[0...,0...]&gt;</signature>
+                        <name>Matrix4x4s</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float64[0...,0...]&gt;</signature>
+                        <name>MatrixBone</name>
+                    </field>
+                    <field>
+                        <signature>float32</signature>
+                        <name>NKF_TRANS_OOSCALE_1_11_4</name>
+                    </field>
+                    <field>
+                        <signature>float32</signature>
+                        <name>NKF_TRANS_SCALE_1_11_4</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>Scaleto</name>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Button</signature>
+                        <name>button1</name>
+                        <newname>j</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.CheckBox</signature>
+                        <name>checkBox1</name>
+                        <newname>l</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.CheckBox</signature>
+                        <name>checkBox2</name>
+                        <newname>i</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.CheckBox</signature>
+                        <name>checkBox3</name>
+                        <newname>m</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.CheckBox</signature>
+                        <name>checkBox4</name>
+                        <newname>n</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.CheckBox</signature>
+                        <name>checkBox5</name>
+                        <newname>o</newname>
+                    </field>
+                    <field>
+                        <signature>System.ComponentModel.IContainer</signature>
+                        <name>components</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>float64[]</signature>
+                        <name>constquot</name>
+                    </field>
+                    <field>
+                        <signature>System.Globalization.CultureInfo</signature>
+                        <name>culture</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>cur_Path</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>cur_fName</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;string&gt;</signature>
+                        <name>input_ltb</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isAnim</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isAutoCreateQC</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isAutoScaler</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isCalcframe</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isCheckboxAnim</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>isSubForm</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>is__doing</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>is_install_file</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>is_slp_hand</name>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>is_spl_model</name>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label1</name>
+                        <newname>h</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label2</name>
+                        <newname>e</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label3</name>
+                        <newname>k</newname>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>numAnim</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>numBones</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>numMesh</name>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.OpenFileDialog</signature>
+                        <name>openFileDialog1</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.OpenFileDialog</signature>
+                        <name>openFileDialog2</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.RichTextBox</signature>
+                        <name>richTextBox1</name>
+                        <newname>f</newname>
+                    </field>
+                    <field>
+                        <signature>float64[]</signature>
+                        <name>saveResult</name>
+                    </field>
+                    <field>
+                        <signature>float64[0...,0...]</signature>
+                        <name>savequot</name>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.TextBox</signature>
+                        <name>textBox1</name>
+                        <newname>g</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStrip</signature>
+                        <name>toolStrip1</name>
+                        <newname>p</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripButton</signature>
+                        <name>toolStripButton1</name>
+                        <newname>q</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripButton</signature>
+                        <name>toolStripButton2</name>
+                        <newname>r</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripButton</signature>
+                        <name>toolStripButton3</name>
+                        <newname>s</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripButton</signature>
+                        <name>toolStripButton4</name>
+                        <newname>w</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripSeparator</signature>
+                        <name>toolStripSeparator1</name>
+                        <newname>u</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripSeparator</signature>
+                        <name>toolStripSeparator2</name>
+                        <newname>t</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripSeparator</signature>
+                        <name>toolStripSeparator3</name>
+                        <newname>v</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ToolStripSeparator</signature>
+                        <name>toolStripSeparator4</name>
+                        <newname>x</newname>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>totalmesh</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.Form1/&lt;&gt;c__DisplayClass35_0</name>
+                <newname>LTB_SMD_GN.Form1/a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>&lt;.ctor&gt;b__1</name>
+                        <newname>b</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>string</signature>
+                        <name>resourceName</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.MeshData</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nIdx</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>name</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>normals</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nvertices</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;int32&gt;</signature>
+                        <name>triangles</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>type</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>uvs</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>vertices</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>weights</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;int32[]&gt;</signature>
+                        <name>weightsets</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;int32&gt;</signature>
+                        <name>weightsets_output</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.Program</name>
+                <newname>b</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Main</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.Properties.Resources</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Author</name>
+                        <newname>j</newname>
+                    </method>
+                    <method>
+                        <signature>System.Globalization.CultureInfo()</signature>
+                        <name>get_Culture</name>
+                        <newname>k</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_FreeImage</name>
+                        <newname>i</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_FreeImageNET</name>
+                        <newname>h</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_ManagedSquish</name>
+                        <newname>g</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_NativeSquish_x64</name>
+                        <newname>e</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_NativeSquish_x86</name>
+                        <newname>d</newname>
+                    </method>
+                    <method>
+                        <signature>System.Resources.ResourceManager()</signature>
+                        <name>get_ResourceManager</name>
+                        <newname>l</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_SevenZipSharp</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_mylove</name>
+                        <newname>f</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_studiomdl</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>unsigned int8[]()</signature>
+                        <name>get_textures</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.Globalization.CultureInfo)</signature>
+                        <name>set_Culture</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Globalization.CultureInfo</signature>
+                        <name>resourceCulture</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>System.Resources.ResourceManager</signature>
+                        <name>resourceMan</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Author</name>
+                    </property>
+                    <property>
+                        <signature>System.Globalization.CultureInfo()</signature>
+                        <name>Culture</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>FreeImage</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>FreeImageNET</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>ManagedSquish</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>NativeSquish_x64</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>NativeSquish_x86</name>
+                    </property>
+                    <property>
+                        <signature>System.Resources.ResourceManager()</signature>
+                        <name>ResourceManager</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>SevenZipSharp</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>mylove</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>studiomdl</name>
+                    </property>
+                    <property>
+                        <signature>unsigned int8[]()</signature>
+                        <name>textures</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.Properties.Settings</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>LTB_SMD_GN.Properties.Settings()</signature>
+                        <name>get_Default</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>LTB_SMD_GN.Properties.Settings</signature>
+                        <name>defaultInstance</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>LTB_SMD_GN.Properties.Settings()</signature>
+                        <name>Default</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+            <type>
+                <name>LTB_SMD_GN.framedata</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int32</signature>
+                        <name>indexframe</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>pos</name>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;float32[]&gt;</signature>
+                        <name>quats</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>10</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>103</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>97</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>13</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>3</statistic>
+            <statistic>30.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>68</statistic>
+            <statistic>66.02 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>36</statistic>
+            <statistic>37.11 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'a'</description>
+            <statistic>26</statistic>
+            <statistic>25.24 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'b'</description>
+            <statistic>11</statistic>
+            <statistic>10.68 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'c'</description>
+            <statistic>6</statistic>
+            <statistic>5.83 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'd'</description>
+            <statistic>4</statistic>
+            <statistic>3.88 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'e'</description>
+            <statistic>3</statistic>
+            <statistic>2.91 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'f'</description>
+            <statistic>3</statistic>
+            <statistic>2.91 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'g'</description>
+            <statistic>3</statistic>
+            <statistic>2.91 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>
